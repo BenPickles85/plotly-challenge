@@ -7,25 +7,37 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    #heading {
+      background-color: #b2fce4;
+      color: black;
+      font-family: Courier, monospace;
+      font-size: medium;
+      font-weight: 600;
+    }
+    .panel-body {
+      font-family: Courier, monospace;
+      font-size: medium;
+    }
+  </style>>
 </head>
 
 <body>
-
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+    <div class="row" >
+      <div class="col-lg-12 jumbotron text-center" id= "heading">
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h3>Use the interactive charts below to explore the dataset</h3>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
+        <div class="well" id= "heading">
           <h5>Test Subject ID No.:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
-          <div class="panel-heading">
+          <div class="panel-heading" id= "heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
