@@ -161,7 +161,7 @@ function metadata(id) {
       domain: { x: [0, 1], y: [0, 1] },
       value: metadata[0].wfreq,
       title: {
-        text: "Belly Button Washing Frequency",        
+        text: "Belly Button Washing Frequency",            
         font: {
           size: 30,
           color: '#000066'
@@ -176,13 +176,13 @@ function metadata(id) {
         },
         steps: [
           { range: [0, 1], color: "lightskyblue" },
-          { range: [1, 2], color: "gray" },
+          { range: [1, 2], color: "lightgray" },
           { range: [2, 3], color: "lightskyblue" },
-          { range: [3, 4], color: "gray" },
+          { range: [3, 4], color: "lightgray" },
           { range: [4, 5], color: "lightskyblue"},
-          { range: [5, 6], color: "gray" },
+          { range: [5, 6], color: "lightgray" },
           { range: [6, 7], color: "lightskyblue" },
-          { range: [7, 8], color: "gray" },
+          { range: [7, 8], color: "lightgray" },
           { range: [8, 9], color: "lightskyblue" },
         ],
         bar: {
